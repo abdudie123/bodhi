@@ -51,7 +51,7 @@ const Home = () => {
             </div>
             <div className="fade-in-up stagger-2 float-animation">
               <img
-                src="https://images.pexels.com/photos/4198009/pexels-photo-4198009.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="./pack.jpeg"
                 alt="Premium Makhana in hands"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
