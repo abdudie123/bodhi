@@ -11,7 +11,7 @@ const Products = () => {
       grade: '6 & 6+',
       size: '18-24mm',
       category: 'premium',
-      image: 'https://images.pexels.com/photos/4198009/pexels-photo-4198009.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: './img7.jpeg',
       description: 'Premium quality makhana with the largest size grade, perfect for premium retail and gourmet applications.',
       features: ['Largest size (18-24mm)', 'Premium quality', 'Hand-sorted', 'Minimum breakage'],
       packaging: '10kg bags, 100gm plastic packets',
@@ -23,8 +23,7 @@ const Products = () => {
       grade: '5+',
       size: '15-18mm',
       category: 'premium',
-      image: 'https://images.pexels.com/photos/4113890/pexels-photo-4113890.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'High-quality makhana with excellent texture and taste, ideal for premium snack products.',
+image: './img22.jpeg',      description: 'High-quality makhana with excellent texture and taste, ideal for premium snack products.',
       features: ['Large size (15-18mm)', 'Uniform texture', 'Superior taste', 'Low moisture content'],
       packaging: '10kg bags, 100gm plastic packets',
       priceRange: '₹380-420/kg'
@@ -35,8 +34,7 @@ const Products = () => {
       grade: '6',
       size: '18-20mm',
       category: 'premium',
-      image: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Hand-picked premium grade makhana, perfect for high-end retail and export markets.',
+image: './img8.jpeg',      description: 'Hand-picked premium grade makhana, perfect for high-end retail and export markets.',
       features: ['Hand-picked quality', '18-20mm size', 'Export quality', 'Premium texture'],
       packaging: '10kg bags, 100gm plastic packets',
       priceRange: '₹420-460/kg'
@@ -47,8 +45,7 @@ const Products = () => {
       grade: '4 & 5',
       size: '13-18mm',
       category: 'standard',
-      image: 'https://images.pexels.com/photos/7129140/pexels-photo-7129140.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Good quality makhana suitable for general retail and food processing applications.',
+image: './img5.jpeg',      description: 'Good quality makhana suitable for general retail and food processing applications.',
       features: ['Medium to large size', 'Good texture', 'Value for money', 'Versatile use'],
       packaging: '10kg bags, 100gm plastic packets',
       priceRange: '₹320-360/kg'
@@ -59,8 +56,7 @@ const Products = () => {
       grade: '3, 4 & 5',
       size: '10-18mm',
       category: 'economical',
-      image: 'https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Cost-effective makhana mix suitable for bulk processing and value retail products.',
+image: './img25.jpeg',      description: 'Cost-effective makhana mix suitable for bulk processing and value retail products.',
       features: ['Mixed sizes', 'Cost-effective', 'Good for processing', 'Bulk availability'],
       packaging: '10kg bags, 100gm plastic packets',
       priceRange: '₹280-320/kg'
@@ -71,8 +67,7 @@ const Products = () => {
       grade: '3 to 6+',
       size: '10-24mm',
       category: 'economical',
-      image: 'https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Mixed grade makhana perfect for snack manufacturing and bulk food processing.',
+image: './img12.jpeg',      description: 'Mixed grade makhana perfect for snack manufacturing and bulk food processing.',
       features: ['All sizes mixed', 'Best value', 'Processing grade', 'High volume'],
       packaging: '10kg bags, 100gm plastic packets',
       priceRange: '₹260-300/kg'
@@ -83,8 +78,7 @@ const Products = () => {
       grade: 'Powder',
       size: 'Fine Powder',
       category: 'specialty',
-      image: 'https://images.pexels.com/photos/5794064/pexels-photo-5794064.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: '100% natural lotus seed powder, ideal for health supplements, baby food, and gluten-free baking.',
+image:'./powder.webp',     description: '100% natural lotus seed powder, ideal for health supplements, baby food, and gluten-free baking.',
       features: ['Fine powder', 'Gluten-free', 'High protein', 'Versatile ingredient'],
       packaging: 'Plastic packets (500gm, 1kg)',
       priceRange: '₹400-450/kg'
@@ -236,10 +230,10 @@ const Products = () => {
                     <span className="text-sm text-gray-600">Packaging:</span>
                     <span className="text-sm font-medium">{product.packaging}</span>
                   </div>
-                  <div className="flex items-center justify-between mb-4">
+                  {/* <div className="flex items-center justify-between mb-4">
                     <span className="text-sm text-gray-600">Price Range:</span>
                     <span className="text-lg font-bold text-green-600">{product.priceRange}</span>
-                  </div>
+                  </div> */}
                   <div className="flex gap-2">
                     <button className="flex-1 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 btn-hover">
                       <ShoppingCart className="w-4 h-4 inline mr-1" />

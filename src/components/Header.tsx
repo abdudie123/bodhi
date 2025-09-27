@@ -24,11 +24,11 @@ const Header = () => {
             <div className="relative">
               <div className="w-20 h-16 rounded-full flex items-center justify-center  transition-all duration-300">
                 {/* <Leaf className="w-6 h-6 text-white" /> */}
-                <img className='bodhi-logo' src='./bodhi.png'></img>
+                <img className='bodhi-logo ' src='./bodhi.png'></img>
               </div>
               <div className="absolute -top-1 -right-1 w-4 h-4  rounded-full opacity-80"></div>
             </div>
-            <div>
+            <div className='mt-3'>
               <h1 className="text-2xl font-bold text-gray-900">BODHI</h1>
               <p className="text-sm text-green-600 font-medium">Pure Makhana</p>
             </div>

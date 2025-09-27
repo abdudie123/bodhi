@@ -30,25 +30,24 @@ const About = () => {
       step: '1',
       title: 'Cultivation',
       description: 'Makhana plants thrive in serene ponds of Bihar during monsoon season.',
-      image: 'https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: './img40.jpeg'
     },
     {
       step: '2',
       title: 'Harvesting',
       description: 'Seeds are hand-harvested from water, ensuring minimal ecosystem damage.',
-      image: 'https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: './img15.jpeg'
     },
     {
       step: '3',
       title: 'Processing',
       description: 'Traditional roasting and popping process transforms seeds into crunchy makhana.',
-      image: 'https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=400'
-    },
+image: './img28.jpeg'    },
     {
       step: '4',
       title: 'Grading',
       description: 'Manual sorting by size and quality ensures only the best reaches you.',
-      image: 'https://images.pexels.com/photos/4198009/pexels-photo-4198009.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: './img41.jpeg'
     }
   ];
 
@@ -89,9 +88,9 @@ const About = () => {
             </div>
             <div className="fade-in-up stagger-2">
               <img
-                src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="./img14.jpeg "
                 alt="Farmers working in Bihar"
-                className="w-full h-auto rounded-2xl shadow-2xl"
+                className="w-full h-auto rounded-2xl shadow-2xl home-page-farmer-vid"
               />
             </div>
           </div>
@@ -133,9 +132,9 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="fade-in-up">
               <img
-                src="https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="./img20.jpeg "
                 alt="Farmer harvesting makhana"
-                className="w-full h-auto rounded-2xl shadow-xl"
+                className="w-full h-auto rounded-2xl shadow-xl home-page-farmer-vid"
               />
             </div>
             <div className="fade-in-up stagger-2">
@@ -268,11 +267,12 @@ const About = () => {
               </div>
             </div>
             <div className="fade-in-up stagger-2">
-              <img
-                src="https://images.pexels.com/photos/4198009/pexels-photo-4198009.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Grading process"
-                className="w-full h-auto rounded-2xl shadow-xl"
-              />
+              <video src='./vid2.mp4' 
+                autoPlay
+        loop
+        muted
+        playsInline
+                className="w-full h-auto rounded-2xl shadow-xl object-cover home-page-farmer-vid"></video>
             </div>
           </div>
         </div>

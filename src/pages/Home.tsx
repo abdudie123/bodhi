@@ -122,7 +122,7 @@ const Home = () => {
             </div>
             <div className="fade-in-up stagger-2">
               <img
-                src="https://images.pexels.com/photos/4113890/pexels-photo-4113890.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="./gem.png"
                 alt="Healthy lifestyle with makhana"
                 className="w-full h-auto rounded-2xl shadow-xl"
               />
@@ -136,11 +136,17 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="fade-in-up">
-              <img
-                src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=600"
+              {/* <img
+                src="./img11.jpeg"
                 alt="Farmers working in Bihar fields"
                 className="w-full h-auto rounded-2xl shadow-xl"
-              />
+              /> */}
+              <video src='./vid1.mp4' 
+                autoPlay
+        loop
+        muted
+        playsInline
+                className="w-full h-auto rounded-2xl shadow-xl object-cover home-page-farmer-vid"></video>
             </div>
             <div className="fade-in-up stagger-2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">

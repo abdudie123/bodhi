@@ -85,3 +85,7 @@
   /* scale: 2; */
   /* height: 500px; */
 }
+.home-page-farmer-vid{
+  height: 500px !important;
+  object-fit: cover;
+}
